@@ -21,7 +21,7 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String home() {
-		return "Hello World!";
+		return "Hello World!!!!";
 	}
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public Integer add(@RequestParam(value = "a") Integer a, @RequestParam(value = "b") Integer b) {
